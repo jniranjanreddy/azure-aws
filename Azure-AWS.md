@@ -10,8 +10,9 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 |Service | Description | Azure                      | AWS                      |
 |-------|--------- |------------------------------- | --------------------------------------------- |
 |Virtual servers|  Allows users to deploy, manage, and maintain OS and server software; instance types provide configurations of CPU/RAM | Virtual Machine  | Elastic Compute Cloud EC2 |
-|Container management| Supports Docker/Kubernetes containers and allows users to run applications on managed instance clusters | EC2 Container Service (ECS) EC2 Container Service Kubernetes (EKS | Container service Azure Container service|
-| | | | |
+|Container management| Supports Docker/Kubernetes containers and allows users to run applications on managed instance clusters | EC2 Container Service (ECS) EC2 Container Service Kubernetes (EKS | Container service Azure Container service, AKS |
+| | Allows customers to store Docker formatted images. Used
+to create all types of container deployments on Azure. |EC2 Container Registry | Azure Container Registry |
 || | | |
 || | | |
 || | | |
