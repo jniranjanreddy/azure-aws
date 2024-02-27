@@ -7,9 +7,9 @@ they are part of different cloud platforms (Microsoft Azure and Amazon Web Servi
 integrations, and pricing. Here's a comparison between Azure Functions and AWS Lambda:
 ```
 
-| Azure Functions                     | AWS lambda                     |
+| Azure                      | AWS                      |
 | ------------------------------- | --------------------------------------------- |
-| | |
+| Elastic Compute Cloud EC2  | Virtal machine |
 | | |
 | | |
 | | |
