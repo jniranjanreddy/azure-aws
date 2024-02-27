@@ -7,14 +7,13 @@ they are part of different cloud platforms (Microsoft Azure and Amazon Web Servi
 integrations, and pricing. Here's a comparison between Azure Functions and AWS Lambda:
 ```
 
-|Service | Description | Azure                      | AWS                      |
+|Service | Description | AWS                      | Azure                      |
 |-------|--------- |------------------------------- | --------------------------------------------- |
 |Virtual servers|  Allows users to deploy, manage, and maintain OS and server software; instance types provide configurations of CPU/RAM | Virtual Machine  | Elastic Compute Cloud EC2 |
 |Container management| Supports Docker/Kubernetes containers and allows users to run applications on managed instance clusters | EC2 Container Service (ECS) EC2 Container Service Kubernetes (EKS | Container service Azure Container service, AKS |
-| | Allows customers to store Docker formatted images. Used
-to create all types of container deployments on Azure. |EC2 Container Registry | Azure Container Registry |
-|| | | |
-|| | | |
+| | Allows customers to store Docker formatted images. Used to create all types of container deployments on Azure. | EC2 Container Registry | Azure Container Registry |
+|| Allows customers to spin up container instances at will without any additional installation of underlying infrastructure or hosts | Fargate  | Container Instance |
+|Backedn Process Logic | Integrates systems and runs backend processes in response to events or schedules without provisioning or managing servers. | lambda | - Azure Functions, Event Grid |
 || | | |
 || | | |
 || | | |
