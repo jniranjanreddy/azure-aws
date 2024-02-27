@@ -42,8 +42,9 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 |Database migration | Focuses on migration of database schema and data from one database format to a specific database technology in the cloud. | Database Migration Service | database Migration Service, Data Migration Assistant |
 | Elastic data warehouse |  A fully managed data warehouse that analyzes data using business intelligence tools. | Redshift | SQL Data WareHouse|
 | Big data processing | Supports technologies that break up large data processing tasks into multiple jobs, and then combine the results to enable massive parallelism. | Elastic MapReduce (EMR)  | HDinsight |
-| | | | |
-| | | | |
+| Data orchestration | Processes and moves data between different compute and storage services, as well as on-premises data sources at specified intervals. | Data Pipeline | Data Factory |
+| | Cloud-based ETL/data integration service that orchestrates and automates the movement and transformation of data from various sources | Glue Data Catalog | Data factory + Data catalog |
+| Analytics  | Storage and analysis platforms that create insights from massive quantities of data, or data that originates from many sources. | Kinesis Analytics | Stream Analytics, Data Lake Analytics, Data Lake Store |
 | | | | |
 | | | | |
 | | | | |
