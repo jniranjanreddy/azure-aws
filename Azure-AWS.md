@@ -36,6 +36,12 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | Dedicated network | Establishes a dedicated, private network connection from a location to the cloud provider. | Direct Connect  | Express Route |
 | Load balancing  | Automatically distributes incoming application traffic to add scale, handle failover, and route to a collection of resources. | Elastic Load Balancing | Load Balancer, Application Gateway |
 | Relational database | SQL Database is a high-performance, reliable, and secure database you can use to build data-driven applications and websites, without needing to manage infrastructure. | RDS | SQL Database Including PostgreSQL, MySQl and MariaDB |
+| NoSQL—document storage |  A globally-distributed, multi-model database that natively supports multiple data models: key-value, documents, graphs, and columnar| DynamoDB, Neptune  | Cosmos DB |
+| NoSQL—key/value storage | A non-relational data store for semi-structured data. | DynamoDB and SimpleDB | table Storage  |
+| Caching |  An in-memory–based, distributed-caching service thatprovides a high-performance store typically used to offload non-transactional work from a database. | ElastiCache | Redis cache |
+|Database migration | Focuses on migration of database schema and data from one database format to a specific database technology in the cloud. | Database Migration Service | database Migration Service, Data Migration Assistant |
+| Elastic data warehouse |  A fully managed data warehouse that analyzes data using business intelligence tools. | Redshift | SQL Data WareHouse|
+| Big data processing | Supports technologies that break up large data processing tasks into multiple jobs, and then combine the results to enable massive parallelism. | Elastic MapReduce (EMR)  | HDinsight |
 | | | | |
 | | | | |
 | | | | |
@@ -43,6 +49,11 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | | | | |
 | | | | |
 | | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
 ||| Azure Functions: Integrates well with other Azure services and provides seamless connectivity with Azure Logic Apps, Event Grid, and other Azure components.  | AWS Lambda: Integrates with various AWS services like Amazon S3, DynamoDB, API Gateway, and more. It also allows custom integrations with other AWS services. |
 ||| Azure Functions: Supports a variety of triggers, including HTTP triggers, timer triggers, message-based triggers using Azure Service Bus, Azure Event Hubs, and more | AWS Lambda: Triggers can be events from different AWS services, such as changes in an S3 bucket, updates to DynamoDB tables, or API Gateway invocations |
