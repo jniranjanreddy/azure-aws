@@ -13,10 +13,10 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 |Container management| Supports Docker/Kubernetes containers and allows users to run applications on managed instance clusters | EC2 Container Service (ECS) EC2 Container Service Kubernetes (EKS | Container service Azure Container service, AKS |
 | | Allows customers to store Docker formatted images. Used to create all types of container deployments on Azure. | EC2 Container Registry | Azure Container Registry |
 || Allows customers to spin up container instances at will without any additional installation of underlying infrastructure or hosts | Fargate  | Container Instance |
-|Backedn Process Logic | Integrates systems and runs backend processes in response to events or schedules without provisioning or managing servers. | lambda | - Azure Functions, Event Grid |
-|| | | |
-|| | | |
-|| | | |
+|Backedn Process Logic | Integrates systems and runs backend processes in response to events or schedules without provisioning or managing servers. | lambda | Azure Functions, Event Grid |
+|Microservice-based applications | Orchestrates and manages the execution, lifetime, and resilience of complex, interrelated code components that can be either stateless or stateful | | Service fabric |
+| Job orchestration | When processing across hundreds or thousands of compute nodes, this tool orchestrates the tasks and interactions between compute resources that are necessary | Batch | Batch |
+| Scalability| Automatically changes the number of instances providing a compute workload. Users set defined metrics and thresholds that determine if the platform adds or removes instances. | Auto Scaling  | Virtual Machine scale sets, App Service Scala Capability, AutoScaling |
 || | | |
 || | | |
 || | | |
