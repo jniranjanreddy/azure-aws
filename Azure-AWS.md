@@ -21,14 +21,28 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | Time Sync |  Enables customers to access time servers from within the cloud network| Time Sync Service | - |
 | Object storage | Object storage service for use cases including cloud apps, content distribution, backup, archiving, disaster recovery, and big data analytics | Simple Storage Services S3    | Storage  |
 | Virtual Server disk infrastructure| SSD storage optimized for I/O intensive read/write operations| Elastic Block Store (EBS) | DIst Storage-(page blobs for VHDS other random write type data) Dist srorage, Premium Storage |
-|| | | |
-|| | | |
-|| | | |
-|| | | |
-|| | | |
-|| | | |
-|| | | |
-|| | | |
+| Shared file storage | A simple interface to create and configure file systems quickly as well as share common files. | Elastic File System | Files  |
+| Archiving—cool storage | A lower cost tier for storing data that is infrequently accessed and long-lived | S3 IA Glacier | Storage-Hot, Cool A Archive Tier |
+| Backup | Backup and archival solutions that allow files and folders to be backed-up and recovered from the cloud, and provide off-site protection against data loss. | - | Back Up |
+| Hybrid storage | Integrates on-premises IT environments with cloud storage. Automates data management and storage, plus supports disaster recovery | Storage gateway  |  StorSimple |
+| Bulk data transfer |  A data transport solution that uses secure disks and appliances to transfer substantial amounts of data. | Import/Export Disk | Import/Export |
+| | Petabyte- to Exabyte-scale data transport solution | Import/Export Snowball, Snowball Edge, Snowmobile | DataBox |
+| Disaster recovery | Automates protection and replication of virtual machines with health monitoring, recovery plans, and recovery plan testing.| - | Site Recovery |
+| Cloud virtual networking | Provides an isolated, private environment in the cloud. | Virtual Private Cloud | Virtual Network |
+| Cross-premises connectivity  | Connects Azure virtual networks to other Azure virtual networks or customer on-premises networks. It also supports VPN tunneling. | VPN Gateway | VPN Gateway |
+| Domain name system management | Manage DNS records using the same credentials, billing, and support contract as other Azure services. |  Route 53 | DNS |
+|  | Service that hosts domain names, routes users to Internet applications, manages traffic to apps, and improves app availability with automatic failover. | Route 53 | Traffic manager |
+| Content delivery network |  Global content delivery network that transfers audio, video, applications, images, and other files. | CloudFront  | FrontDoor |
+| Dedicated network | Establishes a dedicated, private network connection from a location to the cloud provider. | Direct Connect  | Express Route |
+| Load balancing  | Automatically distributes incoming application traffic to add scale, handle failover, and route to a collection of resources. | Elastic Load Balancing | Load Balancer, Application Gateway |
+| Relational database | SQL Database is a high-performance, reliable, and secure database you can use to build data-driven applications and websites, without needing to manage infrastructure. | RDS | SQL Database Including PostgreSQL, MySQl and MariaDB |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
 
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
 ||| Azure Functions: Integrates well with other Azure services and provides seamless connectivity with Azure Logic Apps, Event Grid, and other Azure components.  | AWS Lambda: Integrates with various AWS services like Amazon S3, DynamoDB, API Gateway, and more. It also allows custom integrations with other AWS services. |
