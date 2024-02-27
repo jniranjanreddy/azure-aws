@@ -14,12 +14,12 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | | Allows customers to store Docker formatted images. Used to create all types of container deployments on Azure. | EC2 Container Registry | Azure Container Registry |
 || Allows customers to spin up container instances at will without any additional installation of underlying infrastructure or hosts | Fargate  | Container Instance |
 |Backedn Process Logic | Integrates systems and runs backend processes in response to events or schedules without provisioning or managing servers. | lambda | Azure Functions, Event Grid |
-|Microservice-based applications | Orchestrates and manages the execution, lifetime, and resilience of complex, interrelated code components that can be either stateless or stateful | | Service fabric |
+|Microservice-based applications | Orchestrates and manages the execution, lifetime, and resilience of complex, interrelated code components that can be either stateless or stateful | - | Service fabric |
 | Job orchestration | When processing across hundreds or thousands of compute nodes, this tool orchestrates the tasks and interactions between compute resources that are necessary | Batch | Batch |
 | Scalability| Automatically changes the number of instances providing a compute workload. Users set defined metrics and thresholds that determine if the platform adds or removes instances. | Auto Scaling  | Virtual Machine scale sets, App Service Scala Capability, AutoScaling |
-|| | | |
-|| | | |
-|| | | |
+| Pre-defined templates | Community-led templates for creating and deploying virtual machine-based solutions. | Quick Start | QuickStart Templates and Blue prints |
+| Time Sync |  Enables customers to access time servers from within the cloud network| Time Sync Service | - |
+| Object storage | Object storage service for use cases including cloud apps, content distribution, backup, archiving, disaster recovery, and big data analytics | Simple Storage Services S3    | Storage  |
 || | | |
 || | | |
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
