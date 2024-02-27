@@ -8,7 +8,7 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 ```
 
 | Description | Azure                      | AWS                      |
-| ------------------------------- | --------------------------------------------- |
+|--------- |------------------------------- | --------------------------------------------- |
 | | Virtual Machine  | Elastic Compute Cloud EC2 |
 | | | |
 | | | |
