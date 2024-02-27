@@ -20,8 +20,16 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | Pre-defined templates | Community-led templates for creating and deploying virtual machine-based solutions. | Quick Start | QuickStart Templates and Blue prints |
 | Time Sync |  Enables customers to access time servers from within the cloud network| Time Sync Service | - |
 | Object storage | Object storage service for use cases including cloud apps, content distribution, backup, archiving, disaster recovery, and big data analytics | Simple Storage Services S3    | Storage  |
+| Virtual Server disk infrastructure| SSD storage optimized for I/O intensive read/write operations| Elastic Block Store (EBS) | DIst Storage-(page blobs for VHDS other random write type data) Dist srorage, Premium Storage |
 || | | |
 || | | |
+|| | | |
+|| | | |
+|| | | |
+|| | | |
+|| | | |
+|| | | |
+
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
 ||| Azure Functions: Integrates well with other Azure services and provides seamless connectivity with Azure Logic Apps, Event Grid, and other Azure components.  | AWS Lambda: Integrates with various AWS services like Amazon S3, DynamoDB, API Gateway, and more. It also allows custom integrations with other AWS services. |
 ||| Azure Functions: Supports a variety of triggers, including HTTP triggers, timer triggers, message-based triggers using Azure Service Bus, Azure Event Hubs, and more | AWS Lambda: Triggers can be events from different AWS services, such as changes in an S3 bucket, updates to DynamoDB tables, or API Gateway invocations |
