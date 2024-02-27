@@ -9,7 +9,9 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 
 |Service | Description | Azure                      | AWS                      |
 |-------|--------- |------------------------------- | --------------------------------------------- |
-|| | Virtual Machine  | Elastic Compute Cloud EC2 |
+|Virtual servers|  Allows users to deploy, manage, and maintain 
+OS and server software; instance types provide 
+configurations of CPU/RAM                                                          | Virtual Machine  | Elastic Compute Cloud EC2 |
 || | | |
 || | | |
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
