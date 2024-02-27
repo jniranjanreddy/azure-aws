@@ -43,7 +43,6 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | | | | |
 | | | | |
 | | | | |
-
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
 ||| Azure Functions: Integrates well with other Azure services and provides seamless connectivity with Azure Logic Apps, Event Grid, and other Azure components.  | AWS Lambda: Integrates with various AWS services like Amazon S3, DynamoDB, API Gateway, and more. It also allows custom integrations with other AWS services. |
 ||| Azure Functions: Supports a variety of triggers, including HTTP triggers, timer triggers, message-based triggers using Azure Service Bus, Azure Event Hubs, and more | AWS Lambda: Triggers can be events from different AWS services, such as changes in an S3 bucket, updates to DynamoDB tables, or API Gateway invocations |
