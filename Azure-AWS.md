@@ -45,7 +45,16 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | Data orchestration | Processes and moves data between different compute and storage services, as well as on-premises data sources at specified intervals. | Data Pipeline | Data Factory |
 | | Cloud-based ETL/data integration service that orchestrates and automates the movement and transformation of data from various sources | Glue Data Catalog | Data factory + Data catalog |
 | Analytics  | Storage and analysis platforms that create insights from massive quantities of data, or data that originates from many sources. | Kinesis Analytics | Stream Analytics, Data Lake Analytics, Data Lake Store |
-| | | | |
+|Streaming data  | Storage and analysis platforms that create insights from massive quantities of data, or data that originates from many sources | Kinesis Streams,   Kinesis Firehose | Event Hubs, Events hub capture|
+|Visualization | Business intelligence tools that build visualizations, perform ad-hoc analysis, and develop business insights from data. | QuickSight | Power BI |
+| | Allows visualization and data analysis tools to be embedded in applications. | | Power BI Embedded |
+| Search  | A scalable search server based on Apache Lucene. | Elasticsearch Service  | Market place Elastic Search |
+| | Delivers full-text search and related search analytics and capabilities. | CloudSearch | search |
+| Machine learning | Produces an end-to-end workflow to create, process, refine, and publish predictive models from complex data sets. | Machine Learning, Sage maker | machine learning Studio, machine learning Workbench |
+| Data discovery |  Provides the ability to better register, enrich, discover, understand, and consume data sources. | | data catalog |
+| | A serverless interactive query service that uses standard SQL for analyzing databases. | Athena  | Data lake Analytics|
+| Conversational user interfaces virtual personal assistant | Suite that covers intelligence cognitive services, machine learning, analytics and more. | Alex Skills Kit | Cortona Intelligence Suite- Cortona Integration |
+| | Builds and connects intelligent bots that interact with users via text messaging, Skype, Teams,  | Lex | Micro service Bot Framework, Bot service |
 | | | | |
 | | | | |
 | | | | |
