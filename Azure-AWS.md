@@ -55,6 +55,15 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | | A serverless interactive query service that uses standard SQL for analyzing databases. | Athena  | Data lake Analytics|
 | Conversational user interfaces virtual personal assistant | Suite that covers intelligence cognitive services, machine learning, analytics and more. | Alex Skills Kit | Cortona Intelligence Suite- Cortona Integration |
 | | Builds and connects intelligent bots that interact with users via text messaging, Skype, Teams,  | Lex | Micro service Bot Framework, Bot service |
+| Text to Speech  | Enables speech-to-text.  | polly  | Bing Speech API |
+| Speech to Text | Enables converting speech to text. | Transcribe |  Bing Speech API |
+| Text translation | Enables language translation automation | Translate |  Translator Text API + Emotions API|
+| Text analysis | Capabilities such as key phrases, languages and sentiment Analysis  | Comprehend | Text Analytics API |
+| Visual recognition | Distills actionable information from images, generates captions, and identifies objects in images | Rekognition |  The Computer Visions API + face API|
+| | Detects, identifies, analyzes, organizes, and tags faces in photos. | |  Face API |
+| Recognizes emotions in images. | | | Emotions API |
+| | Intelligent video processing which produces stable video output, detects motion, creates intelligent thumbnails, detects and tracks faces. | Rekognition Video |  Media Analytics and Video indexer|
+| | Allows developers to take advantage of machine learning models already deployed to the device. | DeepLens | |
 | | | | |
 | | | | |
 | | | | |
@@ -63,6 +72,10 @@ integrations, and pricing. Here's a comparison between Azure Functions and AWS L
 | | | | |
 | | | | |
 | | | | |
+| | | | |
+| | | | |
+| | | | |
+
 
 |||Azure Functions: Supports multiple programming languages including C#, F#, Node.js, Python, PowerShell, Java, and more.  | AWS Lambda: Supports languages such as Node.js, Python, Java, Ruby, Go, .NET Core, and custom runtimes using the Runtime API. |
 ||| Azure Functions: Integrates well with other Azure services and provides seamless connectivity with Azure Logic Apps, Event Grid, and other Azure components.  | AWS Lambda: Integrates with various AWS services like Amazon S3, DynamoDB, API Gateway, and more. It also allows custom integrations with other AWS services. |
